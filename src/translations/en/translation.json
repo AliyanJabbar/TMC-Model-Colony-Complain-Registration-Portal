@@ -99,6 +99,13 @@
     "userId": "User ID",
     "logOut": "Log out"
   },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "We couldn't find the page you were looking for in the TMC Model Colony Complaint Portal.",
+    "home": "Home",
+    "registerComplaint": "Register Complaint",
+    "trackComplaint": "Track Complaint"
+  },
   "common": {
     "loading": "Loading...",
     "error": "An error occurred",

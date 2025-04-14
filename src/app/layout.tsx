@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
-import { Inter, Merriweather } from "next/font/google";
+import { Merriweather } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "./AuthProvider";
 import { Toaster } from "react-hot-toast";
 import ClientLayout from "./clientLayout";
 import { TranslationProvider } from "../context/translationContext";
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
-
 const merriweather = Merriweather({
   weight: ["400", "700", "900"],
-  style: ["italic"],
+  style: ["italic","normal"],
   subsets: ["latin"],
   variable: "--font-merriweather",
 });
@@ -32,7 +26,7 @@ export default function RootLayout({
     <AuthProvider>
       <html lang="en">
         <body
-          className={`font-merri text-gray-700 bg-main antialiased scroll-smooth`}
+          className={`${merriweather.className} text-gray-700 bg-main antialiased scroll-smooth`}
         >
           <TranslationProvider>
             <Toaster position="top-right" reverseOrder={false} />

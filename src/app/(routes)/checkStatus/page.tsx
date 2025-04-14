@@ -29,7 +29,7 @@ export default function ComplaintStatus() {
         }
         const data = await response.json()
         setComplaints(data)
-      } catch (error) {
+      } catch {
         toast({
           title: "Error",
           description: "Failed to load complaints. Please try again.",

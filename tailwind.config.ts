@@ -61,7 +61,6 @@ export default {
       screens: {
         xs: { min: "430px"},
       },
-	  
       fontFamily: {
         merri: ["var(--font-merriweather)", ...fontFamily.sans],
       },

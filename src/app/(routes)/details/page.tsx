@@ -48,7 +48,9 @@ const Details = () => {
         email: user.email,
       });
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, user?.given_name, user?.family_name, user?.email]);
+
+  
 
   const validatePhoneNumber = (phone: string): boolean => {
     // This regex validates Pakistani phone numbers (starting with +92 or 03)
@@ -106,7 +108,7 @@ const Details = () => {
         toast.error(`Error: ${result.error}`, { duration: 7000 });
         router.push("/");
       }
-    } catch (error) {
+    } catch {
       toast.error(t("detailsPage.errorMessage"), { duration: 7000 });
       router.push("/");
     } finally {

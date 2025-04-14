@@ -12,13 +12,20 @@ const translations = {
 };
 
 // Get a value from nested object using dot notation
-export const getNestedValue = (obj: any, path: string): string => {
+type TranslationObject = Record<string, string | Record<string, string>>;
+export const getNestedValue = (
+  obj: TranslationObject,
+  path: string
+): string => {
   const keys = path.split(".");
-  return (
-    keys.reduce((acc, key) => {
-      return acc && acc[key] !== undefined ? acc[key] : undefined;
-    }, obj) || path
-  ); // Return the key itself if translation not found
+  const result = keys.reduce<unknown>((acc, key) => {
+    if (acc && typeof acc === "object" && key in acc) {
+      return (acc as Record<string, unknown>)[key];
+    }
+    return undefined;
+  }, obj as unknown);
+
+  return typeof result === "string" ? result : path;
 };
 
 // Simple translation function
