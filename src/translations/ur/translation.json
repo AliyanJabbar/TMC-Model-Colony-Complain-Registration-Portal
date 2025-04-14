@@ -1,0 +1,111 @@
+{
+  "header": {
+    "portalTitle": "ٹی ایم سی شکایت پورٹل",
+    "home": "ہوم",
+    "registercomplaint": "شکایت درج کریں",
+    "trackcomplaint": "شکایت ٹریک کریں",
+    "aboutus": "ہمارے بارے میں",
+    "profile": "پروفائل",
+    "mycomplaints": "میری شکایات",
+    "signout": "لاگ آؤٹ",
+    "language": "زبان"
+  },
+  "hero": {
+    "title": "ٹی ایم سی ماڈل کالونی",
+    "subtitle": "شکایت رجسٹریشن پورٹل",
+    "description": "عزیز شہری، ٹی ایم سی ماڈل کالونی شکایت سینٹر سے رابطہ کرنے کا شکریہ۔ ہم آپ کی تشویشات میں مدد کے لیے موجود ہیں۔ براہ کرم ہمیں بتائیں کہ ہم آپ کی کیسے مدد کر سکتے ہیں۔",
+    "registerButton": "نئی شکایت درج کریں",
+    "trackButton": "شکایت ٹریک کریں",
+    "idCopied": "شکایت آئی ڈی کلپ بورڈ پر کاپی کی گئی"
+  },
+  "footer": {
+    "copyright": "© year ٹی ایم سی ماڈل کالونی شکایت پورٹل",
+    "title": "ٹی ایم سی ماڈل کالونی"
+  },
+    "complaintCategories": {
+      "againstDogs": "کتوں کے خلاف",
+      "garbageCollection": "کچرا اٹھانا",
+      "streetLights": "سڑک کی روشنی",
+      "antiEncroachment": "تجاوزات کے خلاف",
+      "dangueSpray": "ڈینگی سپرے",
+      "parks": "پارکس",
+      "rainWater": "بارش کا پانی",
+      "sewerage": "نکاسی آب",
+      "roadCutting": "سڑک کی کٹائی",
+      "roadRepair": "سڑک کی مرمت",
+      "sweeping": "صفائی",
+      "water": "پانی",
+      "departmentHeading": "شکایت کے لیے محکمہ منتخب کریں",
+      "departmentDescription": "نئی شکایت درج کرنے کے لیے، اپنا محکمہ منتخب کریں اور اپنی تفصیلات فراہم کریں۔",
+      "proceedButton": "تفصیلات جمع کرنے کے لیے آگے بڑھیں",
+      "selectDepartmentError": "آگے بڑھنے سے پہلے براہ کرم ایک محکمہ منتخب کریں"
+    }, 
+    "detailsPage": {
+    "title": "اپنی شکایت جمع کریں",
+    "subtitle": "ہم آپ کی رائے کی قدر کرتے ہیں۔ اپنی شکایت درج کرنے کے لیے براہ کرم ذیل میں تفصیلات پُر کریں۔",
+    "fullName": "پورا نام",
+    "emailAddress": "ای میل ایڈریس",
+    "phoneNumber": "فون نمبر",
+    "address": "پتہ",
+    "complaintDetails": "شکایت کی تفصیلات",
+    "namePlaceholder": "اپنا پورا نام درج کریں",
+    "emailPlaceholder": "آپکا@ای میل.کام",
+    "phonePlaceholder": "آپکا فون نمبر",
+    "addressPlaceholder": "اپنا مکمل پتہ درج کریں",
+    "detailsPlaceholder": "براہ کرم اپنی شکایت کی تفصیل بیان کریں...",
+    "submitButton": "شکایت جمع کریں",
+    "submittingButton": "شکایت جمع کی جا رہی ہے",
+    "successMessage": "شکایت کامیابی سے جمع کر دی گئی ہے!",
+    "invalidPhoneNumber": "براہ کرم درست فون نمبر درج کریں",
+    "errorMessage": "شکایت جمع کرنے میں ناکامی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"
+  },
+  "trackingPage": {
+    "title": "اپنی شکایت کو ٹریک کریں",
+    "subtitle": "کسی مخصوص شکایت کی تلاش کے لیے اپنی شکایت آئی ڈی درج کریں یا نیچے اپنی حالیہ شکایات دیکھیں۔",
+    "searchPlaceholder": "شکایت آئی ڈی درج کریں",
+    "noComplaintsTitle": "کوئی شکایت نہیں ملی",
+    "noComplaintsMessage": "آپ نے ابھی تک کوئی شکایت درج نہیں کی ہے۔",
+    "registerNewButton": "نئی شکایت درج کریں",
+    "searchResultTitle": "تلاش کا نتیجہ",
+    "recentComplaintsTitle": "حالیہ شکایات",
+    "idLabel": "آئی ڈی:",
+    "departmentLabel": "محکمہ:",
+    "messageLabel": "پیغام:",
+    "replyLabel": "جواب:",
+    "statusLabel": "حیثیت:",
+    "dateLabel": "تاریخ:",
+    "notRepliedYet": "ابھی تک جواب نہیں دیا گیا!"
+  },
+  "aboutPage": {
+    "title": "ٹی ایم سی ماڈل کالونی کے بارے میں",
+    "mission": "ہمارا مشن",
+    "missionText": "ماڈل کالونی کے رہائشیوں کو موثر اور شفاف خدمات فراہم کرنا۔",
+    "contact": "رابطہ کی معلومات",
+    "address": "ماڈل کالونی، کراچی، پاکستان",
+    "phone": "+92-21-12345678",
+    "email": "info@tmcmodelcolony.gov.pk"
+  },
+  "profilePage": {
+    "authRequired": "تصدیق درکار ہے",
+    "authMessage": "اپنی پروفائل تک رسائی اور اپنی شکایات کا انتظام کرنے کے لیے براہ کرم سائن ان کریں یا اکاؤنٹ بنائیں۔",
+    "signIn": "سائن ان کریں",
+    "createAccount": "اکاؤنٹ بنائیں",
+    "termsMessage": "سائن ان کرکے، آپ ہماری سروس کی شرائط اور رازداری کی پالیسی سے اتفاق کرتے ہیں",
+    "personalInfo": "ذاتی معلومات",
+    "firstName": "پہلا نام",
+    "lastName": "آخری نام",
+    "accountDetails": "اکاؤنٹ کی تفصیلات",
+    "email": "ای میل",
+    "userId": "صارف آئی ڈی",
+    "logOut": "لاگ آؤٹ"
+  },
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "ایک خرابی پیش آگئی",
+    "retry": "دوبارہ کوشش کریں",
+    "back": "واپس",
+    "next": "اگلا",
+    "submit": "جمع کریں",
+    "cancel": "منسوخ کریں"
+  }
+}

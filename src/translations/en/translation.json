@@ -1,0 +1,111 @@
+{
+  "header": {
+    "portalTitle": "TMC Complaint Portal",
+    "home": "Home",
+    "registercomplaint": "Register Complaint",
+    "trackcomplaint": "Track Complaint",
+    "aboutus": "About Us",
+    "profile": "Profile",
+    "mycomplaints": "My Complaints",
+    "signout": "Sign Out",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "TMC Model Colony",
+    "subtitle": "Complain Registration Portal",
+    "description": "Dear Citizen, Thank you for contacting the TMC Model Colony Complaint Center. We are here to help with your concerns. Please let us know how we can assist you.",
+    "registerButton": "Register New Complain",
+    "trackButton": "Check Complain Status",
+    "idCopied": "Complain ID copied to clipboard"
+  },
+  "footer": {
+    "copyright": "© year TMC Model Colony Complaint Portal",
+    "title": "TMC Model Colony"
+  },
+  "complaintCategories": {
+    "againstDogs": "Against dogs",
+    "garbageCollection": "Garbage Collection",
+    "streetLights": "Street Lights",
+    "antiEncroachment": "Anti Encroachment",
+    "dangueSpray": "Dengue Spray",
+    "parks": "Parks",
+    "rainWater": "Rain Water",
+    "sewerage": "Sewerage",
+    "roadCutting": "Road Cutting",
+    "roadRepair": "Road Repair",
+    "sweeping": "Sweeping",
+    "water": "Water",
+    "departmentHeading": "Choose a Department for Complaint",
+    "departmentDescription": "To file a new complaint, select your department and provide your details.",
+    "proceedButton": "Proceed to submit details",
+    "selectDepartmentError": "Please select a department before proceeding!"
+  },
+  "detailsPage": {
+    "title": "Submit Your Complaint",
+    "subtitle": "We value your feedback. Please fill in the details below to register your complaint.",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "address": "Address",
+    "complaintDetails": "Complaint Details",
+    "namePlaceholder": "Enter your full name",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "Your phone number",
+    "addressPlaceholder": "Enter your complete address",
+    "detailsPlaceholder": "Please describe your complaint in detail...",
+    "submitButton": "Submit Complaint",
+    "submittingButton": "Submitting Complaint",
+    "successMessage": "Complaint submitted successfully!",
+    "invalidPhoneNumber": "Please enter a valid phone number",
+    "errorMessage": "Failed to submit complaint. Please try again later."
+  },
+  "trackingPage": {
+    "title": "Track Your Complaints",
+    "subtitle": "Enter your complaint ID to search for a specific complaint or browse your recent complaints below.",
+    "searchPlaceholder": "Enter Complaint ID",
+    "noComplaintsTitle": "No Complaints Found",
+    "noComplaintsMessage": "You haven't submitted any complaints yet.",
+    "registerNewButton": "Register New Complaint",
+    "searchResultTitle": "Search Result",
+    "recentComplaintsTitle": "Recent Complaints",
+    "idLabel": "ID:",
+    "departmentLabel": "Department:",
+    "messageLabel": "Message:",
+    "replyLabel": "Reply:",
+    "statusLabel": "Status:",
+    "dateLabel": "Date:",
+    "notRepliedYet": "Not Replied Yet!"
+  },
+  "aboutPage": {
+    "title": "About TMC Model Colony",
+    "mission": "Our Mission",
+    "missionText": "To provide efficient and transparent services to the residents of Model Colony.",
+    "contact": "Contact Information",
+    "address": "Model Colony, Karachi, Pakistan",
+    "phone": "+92-21-12345678",
+    "email": "info@tmcmodelcolony.gov.pk"
+  },
+  "profilePage": {
+    "authRequired": "Authentication Required",
+    "authMessage": "Please sign in or create an account to access your profile and manage your complaints.",
+    "signIn": "Sign in",
+    "createAccount": "Create Account",
+    "termsMessage": "By signing in, you agree to our Terms of Service and Privacy Policy",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "accountDetails": "Account Details",
+    "email": "Email",
+    "userId": "User ID",
+    "logOut": "Log out"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  }
+}
