@@ -18,7 +18,7 @@ const client = createClient({
 
 const deleteAllByType = async () => {
   try {
-    const query = `*[_type == "news"]._id`; // Change type according to the useCase
+    const query = `*[_type == "complain"]._id`; // Change type according to the useCase
     const ids = await client.fetch(query);
 
     if (ids.length === 0) {

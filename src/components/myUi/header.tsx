@@ -115,7 +115,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden 2lg:flex items-center space-x-8">
             <div className="flex justify-center gap-2 bg-gray-100/50 rounded-xl p-4 font-semibold">
               {navigationItems.map((item) => (
                 <Link
@@ -193,7 +193,7 @@ export default function Header() {
             >
               <div className="cursor-pointer hover:-translate-y-1 transition-all duration-200 p-2 rounded-full hover:bg-gray-200/50">
                 {isAuthenticated && !isLoading && user?.picture ? (
-                  <div className="relative">
+                  <div className="relative w-[35px] h-[35px]">
                     <Image
                       src={user.picture}
                       alt="Profile"
@@ -286,7 +286,7 @@ export default function Header() {
 
         {/* Mobile Navigation - Improved with animation */}
         <div
-          className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`2lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
             mobileMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
@@ -302,7 +302,6 @@ export default function Header() {
                 {t(item.name)}
               </Link>
             ))}
-            {/* Language options in mobile menu */}
           </div>
         </div>
       </nav>

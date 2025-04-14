@@ -60,6 +60,7 @@ export default {
       },
       screens: {
         xs: { min: "430px"},
+        "2lg":{min: "1145px"}
       },
       fontFamily: {
         merri: ["var(--font-merriweather)", ...fontFamily.sans],
