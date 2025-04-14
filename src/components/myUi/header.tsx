@@ -5,7 +5,6 @@ import {
   FaUserCircle,
   FaHome,
   FaClipboardList,
-  FaInfoCircle,
   FaSearch,
   FaSignOutAlt,
   FaUserAlt,
@@ -30,7 +29,6 @@ const navigationItems = [
     icon: FaClipboardList,
   },
   { name: "header.trackcomplaint", href: "/track-complain", icon: FaSearch },
-  { name: "header.aboutus", href: "/about", icon: FaInfoCircle },
 ];
 
 export default function Header() {
